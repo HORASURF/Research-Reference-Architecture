@@ -1,5 +1,5 @@
-# HORA-3.0-Domeinarchitectuur-Onderzoek
-De domeinarchitectuur Onderzoek in ontwikkeling
+# HORA 3.0 - Research Reference Architecture
+De ontwikkelomgeving van de referentiearchitectuur voor onderzoek / The development environment of the research reference architecture
 
 This development environment shows the latest status of the models in development.
 
