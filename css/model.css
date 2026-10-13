@@ -243,6 +243,91 @@ html.frame body * {
     color: #000000 !important;
 }
 
+/* Downloads-menu: native HTML details/summary, zonder JavaScript */
+html.model .ui-layout-north {
+    overflow: visible !important;
+    z-index: 10000 !important;
+}
+
+html.model .navbar,
+html.model .navbar-collapse,
+html.model .navbar-nav {
+    overflow: visible !important;
+}
+
+html.model #horaDownloadsNav {
+    position: relative;
+}
+
+html.model #horaDownloadsDetails {
+    position: relative;
+}
+
+html.model #horaDownloadsDetails > summary {
+    display: block;
+    list-style: none;
+    cursor: pointer;
+    padding: 15px 15px;
+    line-height: 20px;
+    color: #000000 !important;
+    white-space: nowrap;
+    user-select: none;
+}
+
+html.model #horaDownloadsDetails > summary::-webkit-details-marker {
+    display: none;
+}
+
+html.model #horaDownloadsDetails > summary::marker {
+    content: "";
+}
+
+html.model #horaDownloadsDetails > summary:hover,
+html.model #horaDownloadsDetails[open] > summary {
+    background-color: rgba(0, 0, 0, 0.06) !important;
+}
+
+html.model #horaDownloadsDetails > .hora-downloads-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 10001 !important;
+    min-width: 260px;
+    margin: 0;
+    padding: 5px 0;
+    list-style: none;
+    background: #FFFFFF !important;
+    border: 1px solid #CCCCCC;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+}
+
+html.model #horaDownloadsDetails:not([open]) > .hora-downloads-menu {
+    display: none !important;
+}
+
+html.model #horaDownloadsDetails[open] > .hora-downloads-menu {
+    display: block !important;
+}
+
+html.model #horaDownloadsDetails > .hora-downloads-menu > li > a {
+    display: block;
+    padding: 8px 18px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.4;
+    color: #000000 !important;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+html.model #horaDownloadsDetails > .hora-downloads-menu > li > a:hover,
+html.model #horaDownloadsDetails > .hora-downloads-menu > li > a:focus {
+    background-color: #F5F5F5 !important;
+    color: #000000 !important;
+    text-decoration: none;
+}
+
 /* Calibri voor de menu's */
 html.model .navbar,
 html.model .navbar *,
