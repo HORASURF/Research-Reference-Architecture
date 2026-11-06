@@ -1,0 +1,21 @@
+# Over de Research Reference Architecture
+
+De **HORA Research Reference Architecture** is een gezamenlijk referentiekader voor het inrichten, ondersteunen en verbeteren van onderzoek binnen het Nederlandse hoger onderwijs. De architectuur wordt ontwikkeld in het kader van HORA 3.0 en biedt een gemeenschappelijke taal en samenhangende architectuurmodellen voor onderwijs- en onderzoeksinstellingen.
+
+### Wat beschrijft de architectuur?
+
+De referentiearchitectuur beschrijft onder meer de onderzoekswaardestroom, benodigde capabilities, bedrijfsservices, processen, rollen, bedrijfsobjecten en applicatieservices, inclusief hun onderlinge relaties.
+
+### Waarvoor kun je de architectuur gebruiken?
+
+De referentiearchitectuur ondersteunt instellingen bij het analyseren, ontwerpen en verbeteren van hun onderzoeksorganisatie en informatievoorziening. Zij biedt gemeenschappelijke uitgangspunten en herbruikbare bouwstenen, terwijl instellingen zelf bepalen hoe zij deze vertalen naar hun eigen organisatie, processen en systemen.
+
+Daarnaast helpt de architectuur om instellingsoverschrijdende samenhang te herkennen en samenwerking en gezamenlijke voorzieningen beter op elkaar af te stemmen.
+
+### Ontwikkeling en bijdragen
+
+De referentiearchitectuur is in ontwikkeling en wordt samen met architecten en domeinexperts uit het hoger onderwijs verder uitgewerkt en gevalideerd.
+
+Wil je de architectuur verkennen of beoordelen? Raadpleeg dan de **Handleiding**. Daarin staat hoe je modellen, definities en relaties kunt onderzoeken en feedback kunt geven.
+
+Suggesties, vragen en verbetervoorstellen kun je indienen via **Report an issue**. Via **Downloads** zijn de architectuurmodellen en bijbehorende documentatie beschikbaar.
