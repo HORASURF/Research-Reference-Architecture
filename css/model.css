@@ -243,89 +243,28 @@ html.frame body * {
     color: #000000 !important;
 }
 
-/* Downloads-menu: native HTML details/summary, zonder JavaScript */
-html.model .ui-layout-north {
-    overflow: visible !important;
-    z-index: 10000 !important;
+/* Subtiele scheiding tussen bestanden en feedback/informatie */
+html.model .navbar-nav > li.hora-nav-separator {
+    border-left: 1px solid rgba(0, 0, 0, 0.22);
+    margin-left: 4px;
+    padding-left: 4px;
 }
 
-html.model .navbar,
-html.model .navbar-collapse,
-html.model .navbar-nav {
-    overflow: visible !important;
+/* Leesbaarheid van Over deze architectuur */
+html.model #myModal .hora-about-body {
+    line-height: 1.55;
 }
 
-html.model #horaDownloadsNav {
-    position: relative;
+html.model #myModal .hora-about-body h4 {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-weight: 600;
 }
 
-html.model #horaDownloadsDetails {
-    position: relative;
-}
-
-html.model #horaDownloadsDetails > summary {
-    display: block;
-    list-style: none;
-    cursor: pointer;
-    padding: 15px 15px;
-    line-height: 20px;
-    color: #000000 !important;
-    white-space: nowrap;
-    user-select: none;
-}
-
-html.model #horaDownloadsDetails > summary::-webkit-details-marker {
-    display: none;
-}
-
-html.model #horaDownloadsDetails > summary::marker {
-    content: "";
-}
-
-html.model #horaDownloadsDetails > summary:hover,
-html.model #horaDownloadsDetails[open] > summary {
-    background-color: rgba(0, 0, 0, 0.06) !important;
-}
-
-html.model #horaDownloadsDetails > .hora-downloads-menu {
-    position: absolute;
-    top: 100%;
-    right: 0;
-    z-index: 10001 !important;
-    min-width: 260px;
-    margin: 0;
-    padding: 5px 0;
-    list-style: none;
-    background: #FFFFFF !important;
-    border: 1px solid #CCCCCC;
-    border-radius: 0 0 4px 4px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
-}
-
-html.model #horaDownloadsDetails:not([open]) > .hora-downloads-menu {
-    display: none !important;
-}
-
-html.model #horaDownloadsDetails[open] > .hora-downloads-menu {
-    display: block !important;
-}
-
-html.model #horaDownloadsDetails > .hora-downloads-menu > li > a {
-    display: block;
-    padding: 8px 18px;
-    clear: both;
-    font-weight: normal;
-    line-height: 1.4;
-    color: #000000 !important;
-    text-decoration: none;
-    white-space: nowrap;
-}
-
-html.model #horaDownloadsDetails > .hora-downloads-menu > li > a:hover,
-html.model #horaDownloadsDetails > .hora-downloads-menu > li > a:focus {
-    background-color: #F5F5F5 !important;
-    color: #000000 !important;
-    text-decoration: none;
+html.model #myModal .hora-about-body h5 {
+    margin-top: 20px;
+    margin-bottom: 8px;
+    font-weight: 600;
 }
 
 /* Calibri voor de menu's */
